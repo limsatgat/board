@@ -16,6 +16,13 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    // https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-emed-jasper - 톰캣의 jsp 엔진
+    implementation("org.apache.tomcat.embed:tomcat-embed-jasper")
+    // Mybatis
+    implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.3.0")
+    // MySql
+    //runtimeOnly ("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

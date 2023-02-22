@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Lim Su Heon Board</title>
+    <title>Yang Ji Woo Board</title>
 
     <link href="../../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -19,50 +19,7 @@
 
 <body id="page-top">
     <div id="wrapper">
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-2">Member Git</div>
-            </a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/woogunhee">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>GunHee Woo</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/kim-hans">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>JunHan Kim</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Junyeong-NA">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>JunYeong Na</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/JiWoo-1120">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>JiWoo Yang</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/limsatgat">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>SuHeon Lim</span></a>
-            </li>
-            <hr class="sidebar-divider d-none d-md-block">
-        </ul>
+        <%@include file="../common/header.jsp"%>
 
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -142,13 +99,7 @@
                 </div>
             </div>
 
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Kick Off 2023-02-25</span>
-                    </div>
-                </div>
-            </footer>
+            <%@include file="../common/footer.jsp"%>
         </div>
     </div>
 
