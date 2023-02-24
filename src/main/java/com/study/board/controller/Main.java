@@ -1,6 +1,6 @@
 package com.study.board.controller;
 
-import com.study.board.service.SuHeonService;
+import com.study.board.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -39,11 +39,32 @@ public class Main {
         return "/board/jiWooBoard";
     }
 
+    // 김소희
+    @GetMapping("/soHee")
+    public String soHee() {
+        return "/board/soHeeBoard";
+    }
+
     // 임수헌
     @GetMapping("/suHeon")
     public String suHeon() {
         return "/board/suHeonBoard";
     }
+
+    @Autowired
+    GunHeeService gunHeeService;
+
+    @Autowired
+    JunHanService junHanService;
+
+    @Autowired
+    JunYeongService junYeongService;
+
+    @Autowired
+    JiWooService jiWooService;
+
+    @Autowired
+    SoHeeService soHeeService;
 
     @Autowired
     SuHeonService suHeonService;

@@ -22,7 +22,7 @@ dependencies {
     // Mybatis
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.3.0")
     // MySql
-    //runtimeOnly ("com.mysql:mysql-connector-j")
+    runtimeOnly("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

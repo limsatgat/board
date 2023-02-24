@@ -40,6 +40,12 @@
         </li>
 
         <li class="nav-item">
+            <a class="nav-link" href="https://github.com/shkim-123" target="_blank">
+                <i class="fas fa-fw fa-table"></i>
+                <span>SoHee Kim</span></a>
+        </li>
+
+        <li class="nav-item">
             <a class="nav-link" href="https://github.com/limsatgat" target="_blank">
                 <i class="fas fa-fw fa-table"></i>
                 <span>SuHeon Lim</span></a>
