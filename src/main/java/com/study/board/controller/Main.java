@@ -39,6 +39,12 @@ public class Main {
         return "/board/jiWooBoard";
     }
 
+    // 김소희
+    @GetMapping("/soHee")
+    public String soHee() {
+        return "/board/soHeeBoard";
+    }
+
     // 임수헌
     @GetMapping("/suHeon")
     public String suHeon() {
@@ -56,6 +62,9 @@ public class Main {
 
     @Autowired
     JiWooService jiWooService;
+
+    @Autowired
+    SoHeeService soHeeService;
 
     @Autowired
     SuHeonService suHeonService;
