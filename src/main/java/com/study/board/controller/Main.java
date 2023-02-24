@@ -58,7 +58,7 @@ public class Main {
     JunHanService junHanService;
 
     @Autowired
-    JunYeongService junYeongService;
+    JunyeongService junyeongService;
 
     @Autowired
     JiWooService jiWooService;
